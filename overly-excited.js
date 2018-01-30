@@ -7,10 +7,10 @@ let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the
     and output the words to the browser console.
 */
 function addExcitement (sentence) {
-    sentence.join(" ");
-    console.log(addExcitement);
-
-}
+    array.forEach(element => {
+        console.log(sentence.join(" "))
+    });
+};
 
 // Invoke the function and pass in the array
 addExcitement(sentence);

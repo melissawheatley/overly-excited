@@ -1,3 +1,5 @@
+console.log("hello overly excited");
+
 // Create an array that contains the words in the sentence
 let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the", "light", "of", "the", "moon"];
 
@@ -6,10 +8,13 @@ let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the
     the array as the sole argument. It should iterate over the array
     and output the words to the browser console.
 */
-function addExcitement (sentence) {
-    array.forEach(element => {
-        console.log(sentence.join(" "))
-    });
+
+function addExcitement(theWordArray) {
+    var joined = [];
+    for(i=0; i<theWordArray.length; i++) {
+        joined += theWordArray[i] + " ";
+        console.log(joined);
+    };
 };
 
 // Invoke the function and pass in the array
